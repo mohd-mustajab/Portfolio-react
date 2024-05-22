@@ -1,0 +1,201 @@
+.mainpg{
+    height: 200vh;
+}
+.heading{
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 60px;
+    display: flex;
+    color: rgb(40, 204, 204);
+    font-family: 'Ubuntu', sans-serif;
+}
+.heading2{
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 60px;
+    display: flex;
+    color: rgb(40, 204, 204);
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: -29%;
+    top: 13%;
+}
+.description b{
+    color: rgb(40, 204, 204);
+}
+.description{
+    margin-top: 190px;
+    font-size: 30px;
+    width: 1000px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.skill{
+    height: 2vh;
+    width: 90vh;
+    background-color: white;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.skill div{
+    height: 2vh;
+    background-color: rgb(22, 155, 155);
+    border-radius: 20px;
+    position: absolute;
+}
+.description p{
+    font-size: 20px;
+}
+.html div{
+animation: slider_html 2s 1s ease-in-out forwards;
+}
+.css div{
+    animation: slider_css 2s 1s ease-in-out forwards;
+}
+.javascript div{
+    animation: slider_js 2s 1s ease-in-out forwards;
+}
+.react div{
+    animation: slider_react 2s 1s ease-in-out forwards;
+}
+.java div{
+    animation: slider_java 2s 1s ease-in-out forwards;
+}
+.cpp div{
+    animation: slider_cpp 2s 1s ease-in-out forwards;
+}
+.c div{
+    animation: slider_c 2s 1s ease-in-out forwards;
+}
+@keyframes slider_html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75vh;
+    }
+}
+@keyframes slider_css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80vh;
+    }
+}
+@keyframes slider_js{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70vh;
+    }
+}
+@keyframes slider_react{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70vh;
+    }
+}
+@keyframes slider_java{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60vh;
+    }
+}
+@keyframes slider_cpp{
+    0%{
+        width: 0;
+    }
+    100%{
+    width: 50vh;
+}
+}
+@keyframes slider_c{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70vh;
+    }
+}
+@media  (min-width:300px) and (max-width:1000px){
+    .heading{
+        font-size: 45px;
+    }
+    .description{
+        margin-left: -150px;
+    }
+    .heading2{
+        font-size: 50px;
+        position: relative;
+        left: -4%;
+        top: 0%;
+    }
+    .skill{
+        width: 35vh;
+    }
+    .mainpg{
+        height: 200vh;
+    }
+@keyframes slider_html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 32vh;
+    }
+}
+@keyframes slider_css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 30vh;
+    }
+}
+@keyframes slider_js{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25vh;
+    }
+}
+@keyframes slider_react{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25vh;
+    }
+}
+@keyframes slider_java{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25vh;
+    }
+}
+@keyframes slider_cpp{
+    0%{
+        width: 0;
+    }
+    100%{
+    width: 30vh;
+}
+}
+@keyframes slider_c{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 28vh;
+    }
+}}

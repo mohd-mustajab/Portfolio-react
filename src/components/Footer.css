@@ -1,0 +1,133 @@
+
+footer {
+    border-top: 1px solid white;
+    margin-top: 20vh;
+}
+
+.footer1,
+.footer2 {
+    display: flex;
+}
+
+.cards {
+    background-color: black;
+    height: 20vh;
+    width: 33.33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.one {
+    font-size: 50px;
+    font-family: "Caveat", cursive;
+}
+
+.one b {
+    font-size: 100px;
+    color: white;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.two li,
+.two li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.three,
+.five,
+.six {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    border-top: 1px solid white;
+    margin-top:15px;
+}
+
+footer h1 {
+    color: rgb(40, 204, 204);
+}
+
+footer p {
+    color: white;
+    margin-top: 10px;
+}
+.sm2{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.sm2 a{
+text-decoration: none;
+color: white;
+background-color: #353434;
+height: 35px;
+width: 35px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media (min-width:300px) and (max-width:600px) {
+    .sm2 {
+        font-size: 10px;
+
+    }
+
+    .footer1,
+    .footer2 {
+        height: 6vh;
+    }
+
+    .one h1 {
+        font-size: 40px;
+    }
+
+    .cards {
+        height: 6vh;
+        font-size: 5px;
+    }
+
+    .two li a {
+        font-size: 6px;
+    }
+
+    .two li {
+        font-size: 7px;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
+    .one b {
+        font-size: 40px;
+    }
+    .sm2{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sm2 a{
+    text-decoration: none;
+    color: white;
+    height: 18px;
+    width: 18px;
+    }
+}
