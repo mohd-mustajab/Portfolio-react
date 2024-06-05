@@ -4,9 +4,9 @@ footer {
     margin-top: 20vh;
 }
 
-.footer1,
-.footer2 {
-    display: flex;
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .cards {
@@ -22,7 +22,7 @@ footer {
 
 .one {
     font-size: 50px;
-    font-family: "Caveat", cursive;
+    font-family: "Caveat", cursive; 
 }
 
 .one b {
@@ -90,9 +90,8 @@ justify-content: center;
 
     }
 
-    .footer1,
-    .footer2 {
-        height: 6vh;
+    .footer {
+        height: 12vh;
     }
 
     .one h1 {

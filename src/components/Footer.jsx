@@ -12,7 +12,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-  <div className="footer1">
+  <div className="footer">
     <div className="cards one">
       <h1>mj.<b>..</b></h1>
     </div>
@@ -27,8 +27,7 @@ function Footer() {
       <h1>Address</h1>
       <p><FaLocationDot/> Shastripuram,Hyderabad 500052</p>
     </div>
-  </div>
-  <div className="footer2">
+  
     <div className="cards four">
     <div className="sm2"><a href="https://www.instagram.com/mj__this_side/" target="_blank"><IoLogoInstagram /></a>
             <a href="https://www.facebook.com/mohdmustjab.khan" target="_blank"><FaFacebook /></a>
@@ -45,7 +44,7 @@ function Footer() {
       <h1>Phone</h1>
       <p><FaPhoneAlt /> +918077144723 </p>
     </div>
-  </div>
+    </div>
   <div className="copyright">copyright © Developed by<b>MUSTAJAB</b></div>
 </footer>
   )
