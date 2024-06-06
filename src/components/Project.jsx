@@ -3,10 +3,11 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import "./Project.css"
 import Card from 'react-bootstrap/Card';
-import pro1 from './Assets/project1_clock.jpeg'
-import pro2 from './Assets/project2_player.jpeg'
-import pro3 from './Assets/project3_calc.jpg'
-import pro4 from './Assets/project4_todo.jpeg'
+import projectIMG1 from './Assets/project1_clock.jpeg'
+import projectIMG2 from './Assets/project2_player.jpeg'
+import projectIMG3 from './Assets/project3_calc.jpg'
+import projectIMG4 from './Assets/project4_todo.jpeg'
+import projectIMG5 from './Assets/project5_userdata.png'
 
 const Project = () => {
   return (
@@ -15,7 +16,7 @@ const Project = () => {
       <div className="heading">My Works..</div>
       <div className="projects">
         <Card className='card'>
-          <Card.Img variant="top" src={pro1} height="300px" width="300px" />
+          <Card.Img variant="top" src={projectIMG1} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>Analog Clock</Card.Title>
             <Card.Text>
@@ -27,7 +28,7 @@ const Project = () => {
 
 
         <Card className='card'>
-          <Card.Img variant="top" src={pro2} height="300px" width="300px" />
+          <Card.Img variant="top" src={projectIMG2} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>Music Player</Card.Title>
             <Card.Text>
@@ -39,7 +40,7 @@ const Project = () => {
 
 
         <Card className='card'>
-          <Card.Img variant="top" src={pro3} height="300px" width="300px" />
+          <Card.Img variant="top" src={projectIMG3} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>Calculator</Card.Title>
             <Card.Text>
@@ -50,7 +51,7 @@ const Project = () => {
         </Card>
 
         <Card className='card'>
-          <Card.Img variant="top" src={pro4} height="300px" width="300px" />
+          <Card.Img variant="top" src={projectIMG4} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>Todo List</Card.Title>
             <Card.Text>
@@ -59,6 +60,20 @@ const Project = () => {
             <a href="https://todo-list-by-mj.netlify.app/" target='_blank'><button className="btn">Visit Website</button></a>
           </Card.Body>
         </Card>
+
+
+        <Card className='card'>
+          <Card.Img variant="top" src={projectIMG5} height="300px" width="300px" />
+          <Card.Body>
+            <Card.Title>User Data</Card.Title>
+            <Card.Text>
+             It fetch the user's data from external API.You can either search the user by name.
+            </Card.Text>
+            <a href="https://userdata-mj.netlify.app/" target='_blank'><button className="btn">Visit Website</button></a>
+          </Card.Body>
+        </Card>
+
+
       </div>
       <Footer />
     </div>
