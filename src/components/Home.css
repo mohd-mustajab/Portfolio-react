@@ -36,14 +36,9 @@ background-color: black;
     transform: scale(1.2);
 }
 
-#tag {
+#typing {
     font-family: 'Ubuntu', sans-serif;
 }
-
-#tag b {
-    color: rgb(40, 204, 204);
-}
-
 .img {
     height: 500px;
     width: 500px;
