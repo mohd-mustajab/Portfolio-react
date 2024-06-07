@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { NavLink } from 'react-router-dom';
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -18,10 +19,10 @@ function Footer() {
     </div>
     <div className="cards two">
       <h1>Menu</h1>
-      <li><a href="/">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="project.html">Projects</a></li>
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to="/About">About</NavLink></li>
+      <li><NavLink to="/Contact">Contact</NavLink></li>
+      <li><NavLink to="/Project">Project</NavLink></li>
     </div>
     <div className="cards three">
       <h1>Address</h1>
