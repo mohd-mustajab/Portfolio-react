@@ -83,13 +83,13 @@ color: rgb(40, 204, 204);
     background-color: black;
     transition: 1s;
     border: 1px solid rgb(40, 204, 204);
-}
 
-.btn a:hover {
+}   
+.btn:hover a{
     color: rgb(40, 204, 204);
 }
 
-b {
+b{
     color: rgb(40, 204, 204);
 }
 @media (min-width:300px) and (max-width:600px) {

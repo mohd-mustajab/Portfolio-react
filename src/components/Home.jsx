@@ -9,36 +9,36 @@ import { FaGithub } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import myphoto from "./Assets/myphoto.jpeg"
 import mycv from './Assets/Mohd_Mustajab_Resume.pdf'
-import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 
 
 const Home = () => {
-  var typing = document.getElementById('typing');
-  var typewriter = new Typewriter(typing, {
-    loop: true,
-    delay: 75,
-  });
-  typewriter
-
-  .typeString('Web <b>Developer</b>')
-  .pauseFor(1000)
-  .deleteChars(13)
-  .typeString(' A <b>III year</b> Student')
-  .pauseFor(1000)
-  .deleteChars(24)
-  .typeString('Pursuing Bachelors Of Technology ')
-  .pauseFor(1000)
-  .start();
-
   return (
     <div>
      <Navbar/>
      <div className="mainpg">
   <div className="intro">
-    <h3>Hiii,I am</h3>
-    <h1>Mohd <b>M</b>usta<b>j</b>ab</h1>
+    <h3>Hii<b>,</b>I am</h3>
+    <h1>Mohd Mustajab</h1>
     <div>
-      <span id="typing"></span>
+      <span id="typing">
+      <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Web <b>Developer</b>")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("A <b>III year</b> Student")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Pursuing <b>BTech</b>")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("<b>Welcomes </b>You!!")
+                        .start();
+                }}
+            />
+      </span>
     </div>
     <div className="sm"><a href="https://www.instagram.com/mj__this_side/" target="_blank"><FaInstagram /></a>
       <a href="https://www.facebook.com/mohdmustjab.khan" target="_blank"><FaFacebook /></a>
