@@ -20,7 +20,6 @@ background-color: black;
     padding: 150px;
     font-size: 50px;
     row-gap: 10px;
-
 }
 
 .intro h3 {
@@ -44,6 +43,8 @@ background-color: black;
     width: 500px;
     transition: 2s;
     margin-top: 10vh;
+    border: 5px solid rgb(40, 204, 204);
+   border-radius: 50%;
 }
 
 .img:hover {
@@ -95,11 +96,11 @@ b{
 @media (min-width:300px) and (max-width:600px) {
     .intro {
         padding: 5px;
-        row-gap: 30px;
-        height: 80vh;
+        row-gap: 50px;
+        height: 50vh;
         font-size: 30px;
         margin-left: 20px;
-        margin-top: 315px;
+        margin-top: 400px;
     }
 
     .img {
@@ -109,8 +110,6 @@ b{
         position: relative;
         top: -130px;
         left: -240px;
-        border: 2px solid rgb(40, 204, 204);
-        border-radius: 200px;
     }
 
     .mainpg {
