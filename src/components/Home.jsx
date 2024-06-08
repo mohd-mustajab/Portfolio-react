@@ -19,14 +19,14 @@ const Home = () => {
     delay: 75,
   });
   typewriter
- 
+
   .typeString('Web <b>Developer</b>')
   .pauseFor(1000)
   .deleteChars(13)
   .typeString(' A <b>III year</b> Student')
   .pauseFor(1000)
   .deleteChars(24)
-  .typeString('Pursuing Bachelors Of Technology <b>(BTech)</b> ')
+  .typeString('Pursuing Bachelors Of Technology ')
   .pauseFor(1000)
   .start();
 
