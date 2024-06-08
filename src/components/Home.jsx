@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import myphoto from "./Assets/myphoto.png"
+import myphoto from "./Assets/myphoto.jpg"
 import mycv from './Assets/Mohd_Mustajab_Resume.pdf'
 import Typewriter from 'typewriter-effect';
 
