@@ -20,7 +20,7 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Analog Clock</Card.Title>
             <Card.Text>
-              This analog clock project shows the real world time.
+            An analog clock is a traditional timekeeping device featuring a circular dial.
             </Card.Text>
             <a href="https://mohd-mustajab.github.io/Analog_Clock-Project/" target='_blank'><button className="btn">Visit Website</button></a>
           </Card.Body>
@@ -31,8 +31,8 @@ const Project = () => {
           <Card.Img variant="top" src={projectIMG2} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>Music Player</Card.Title>
-            <Card.Text>
-              This Music player project play music and as well as control it.
+            <Card.Text>      
+             A music player software application designed to play audio files. 
             </Card.Text>
             <a href="https://mohd-mustajab.github.io/Music_player_Project/" target='_blank'><button className="btn">Visit Website</button></a>
           </Card.Body>
@@ -44,7 +44,7 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Calculator</Card.Title>
             <Card.Text>
-              This project is a simple calculator.Which can perform calculation of your real world problems.
+            It used for performing mathematical calculations.
             </Card.Text>
             <a href="https://mohd-mustajab.github.io/Calculator/" target='_blank'><button className="btn">Visit Website</button></a>
           </Card.Body>
@@ -55,7 +55,7 @@ const Project = () => {
           <Card.Body>
             <Card.Title>Todo List</Card.Title>
             <Card.Text>
-              This Project store your todos in your local storage.
+            This to-do list is a simple, organized tool used to keep track of tasks and responsibilities.
             </Card.Text>
             <a href="https://todo-list-by-mj.netlify.app/" target='_blank'><button className="btn">Visit Website</button></a>
           </Card.Body>

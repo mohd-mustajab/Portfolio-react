@@ -1,7 +1,7 @@
 
 footer {
     border-top: 1px solid white;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .footer {
@@ -12,7 +12,6 @@ footer {
 .cards {
     background-color: black;
     height: 20vh;
-    width: 33.33vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +94,7 @@ justify-content: center;
     }
 
     .one h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .cards {
@@ -104,11 +103,11 @@ justify-content: center;
     }
 
     .two li a {
-        font-size: 6px;
+        font-size: 4px;
     }
 
     .two li {
-        font-size: 7px;
+        font-size: 5px;
     }
 
     .copyright {

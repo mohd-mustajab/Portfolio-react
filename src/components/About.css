@@ -1,34 +1,37 @@
-.mainpg{
+.container{
     height: 200vh;
 }
 .heading{
-    margin-top: 70px;
-    margin-left: 40px;
+    margin-top: 20px;
     font-size: 60px;
-    display: flex;
     color: rgb(40, 204, 204);
     font-family: 'Ubuntu', sans-serif;
 }
 .heading2{
     margin-top: 70px;
-    margin-left: 40px;
+    text-align: center;
     font-size: 60px;
-    display: flex;
     color: rgb(40, 204, 204);
     font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    left: -29%;
-    top: 13%;
 }
 .description b{
     color: rgb(40, 204, 204);
 }
 .description{
-    margin-top: 190px;
-    font-size: 30px;
-    width: 1000px;
-    margin-left: 70px;
+   margin: 100px auto;
+    font-size: 40px;
+    width: 80%;
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.skills{
+    margin-left: 285px;
+    margin-top: 110px;
+}
+.skills p{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 .skill{
     height: 2vh;
@@ -43,9 +46,6 @@
     background-color: rgb(22, 155, 155);
     border-radius: 20px;
     position: absolute;
-}
-.description p{
-    font-size: 20px;
 }
 .html div{
 animation: slider_html 2s 1s ease-in-out forwards;
@@ -124,12 +124,13 @@ animation: slider_html 2s 1s ease-in-out forwards;
         width: 70vh;
     }
 }
-@media  (min-width:300px) and (max-width:1000px){
+@media  (min-width:300px) and (max-width:600px){
     .heading{
         font-size: 45px;
     }
     .description{
-        margin-left: -150px;
+        font-size: 25px;
+        margin: 50px auto;
     }
     .heading2{
         font-size: 50px;
@@ -142,6 +143,11 @@ animation: slider_html 2s 1s ease-in-out forwards;
     }
     .mainpg{
         height: 200vh;
+        flex-direction: unset;
+    }
+    .skills{
+        margin-left: 30px;
+        margin-top: 80px;
     }
 @keyframes slider_html{
     0%{

@@ -33,12 +33,12 @@
         font-size: 40px;
     }
     .card{
-        width: 100px;
-        height: 180px;
+        width: 90px;
+        height: 200px;
         margin-top: 40px;
     }
     .card img{
-        width: 100px;
+        width: 90px;
         height: 100px;
     }
     .card-title{

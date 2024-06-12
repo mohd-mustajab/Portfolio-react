@@ -14,10 +14,12 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <div className="mainpg">
-        <p className="heading">About:</p>
+      <div className="container">
+        <div className="heading">About</div>
         <div className="description">Hello,My Name is <b>Mohd Mustajab</b>.I am persuing my <b>Bachelor of Technology</b> in <b>Mahaveer Institute Of Science And Technology,Hyderabad</b>.I am a <b>student</b> seeking a challenging role as a <b>web developer </b>where i can utilize my technical skills and creativity to develop innovative web application.
-          <div className="heading2">Skills:</div>
+        </div>
+          <div className="heading2">Skills</div>
+          <div className="skills">
           <div className="skill html"><div /></div><p><FaHtml5 /> Html</p>
           <div className="skill css"><div /></div><p><IoLogoCss3 /> CSS</p>
           <div className="skill javascript"><div/></div><p><IoLogoJavascript /> JavaScript</p>
@@ -25,7 +27,8 @@ const About = () => {
           <div className="skill java"><div /></div><p><FaJava /> Java</p>
           <div className="skill cpp"><div /></div><p><TbBrandCpp /> C++</p>
           <div className="skill c"><div /></div><p><FaCode /> C</p>
-        </div></div>
+        </div>
+        </div>
         <Footer/>
     </div>
   )
