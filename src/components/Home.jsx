@@ -51,7 +51,7 @@ const Home = () => {
     </div>
     <div className="btn"><a download={mycv} href={mycv}>Download CV</a></div>
   </div>
-  <img src={myphoto} alt="" className="img" width="500px" height="500px" />
+<img src={myphoto} alt="" className="img" width="500px" height="500px" />
 </div>
 <Footer/>
     </div>
