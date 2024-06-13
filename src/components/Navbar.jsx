@@ -1,8 +1,15 @@
 import React from 'react'
 import "./Navbar.css"
 import { NavLink } from 'react-router-dom'
+import { IoMdMenu } from "react-icons/io";
 
 const Navbar = () => {
+  // const Opensidebar=()=>{
+  // let OpenSB=document.getElementById('profile');
+  // let sidebar=document.getElementById('sidebar');
+  // OpenSB.style.display="none"
+  // sidebar.style.display="flex";
+  // }
   return (
     <>
       <div id='loader'></div>
@@ -16,7 +23,9 @@ const Navbar = () => {
           <NavLink className={(e) => { return e.isActive ? "Linkcolor" : "" }} to="/Contact"><li>Contact</li></NavLink>
           <NavLink className={(e) => { return e.isActive ? "Linkcolor" : "" }} to="/Project"><li>Projects</li></NavLink>
         </ul>
-        <div className="profile"></div>
+        <div id="profile"><IoMdMenu /></div>
+        <div id="sidebar">
+        </div>
       </nav>
     </>
   )

@@ -16,7 +16,11 @@ const About = () => {
       <Navbar />
       <div className="container">
         <div className="heading">About</div>
-        <div className="description">Hello,My Name is <b>Mohd Mustajab</b>.I am persuing my <b>Bachelor of Technology</b> in <b>Mahaveer Institute Of Science And Technology,Hyderabad</b>.I am a <b>student</b> seeking a challenging role as a <b>web developer </b>where i can utilize my technical skills and creativity to develop innovative web application.
+        <div className="description">Hello<b>!</b> I'm <b>Mohd Mustajab</b>, a passionate and dedicated web developer who builds dynamic and responsive websites and web applications. My journey in web development started with a curiosity for technology and a desire to create functional and aesthetically pleasing digital experiences.
+        </div>
+        <div className="heading">Expertise</div>
+        <div className="description">
+        <b>Front-End Development:</b> Proficient in HTML, CSS, JavaScript, and frameworks such as React.js, I craft engaging and user-friendly interfaces. <br /><b>Back-End Development:</b> Skilled in Node.js, Express, and databases like MongoDB and SQL and APIs. <br /><b>Full-Stack Development:</b> Combining my front-end and back-end skills, I deliver comprehensive solutions that meet both user needs and business objectives. <br /><b>Responsive Design:</b> Ensuring that websites look great and work seamlessly on all devices is a priority in my projects.
         </div>
           <div className="heading2">Skills</div>
           <div className="skills">
