@@ -22,7 +22,7 @@ const Project = () => {
             <Card.Text>
             An analog clock is a traditional timekeeping device featuring a circular dial.
             </Card.Text>
-            <a href="https://mohd-mustajab.github.io/Analog_Clock-Project/" target='_blank'><button className="btn">Visit Website</button></a>
+            <a href="https://mohd-mustajab.github.io/Analog_Clock-Project/" target='_blank'><button className="btn">Visit</button></a>
           </Card.Body>
         </Card>
 
@@ -34,7 +34,7 @@ const Project = () => {
             <Card.Text>      
              A music player software application designed to play audio files. 
             </Card.Text>
-            <a href="https://mohd-mustajab.github.io/Music_player_Project/" target='_blank'><button className="btn">Visit Website</button></a>
+            <a href="https://mohd-mustajab.github.io/Music_player_Project/" target='_blank'><button className="btn">Visit</button></a>
           </Card.Body>
         </Card>
 
@@ -46,7 +46,7 @@ const Project = () => {
             <Card.Text>
             It used for performing mathematical calculations.
             </Card.Text>
-            <a href="https://mohd-mustajab.github.io/Calculator/" target='_blank'><button className="btn">Visit Website</button></a>
+            <a href="https://mohd-mustajab.github.io/Calculator/" target='_blank'><button className="btn">Visit</button></a>
           </Card.Body>
         </Card>
 
@@ -57,7 +57,7 @@ const Project = () => {
             <Card.Text>
             This to-do list is a simple, organized tool used to keep track of tasks and responsibilities.
             </Card.Text>
-            <a href="https://todo-list-by-mj.netlify.app/" target='_blank'><button className="btn">Visit Website</button></a>
+            <a href="https://todo-list-by-mj.netlify.app/" target='_blank'><button className="btn">Visit</button></a>
           </Card.Body>
         </Card>
 
@@ -69,7 +69,7 @@ const Project = () => {
             <Card.Text>
              It fetch the user's data from external API.You can either search the user by name.
             </Card.Text>
-            <a href="https://userdata-mj.netlify.app/" target='_blank'><button className="btn">Visit Website</button></a>
+            <a href="https://userdata-mj.netlify.app/" target='_blank'><button className="btn">Visit</button></a>
           </Card.Body>
         </Card>
 
