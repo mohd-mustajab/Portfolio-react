@@ -37,7 +37,8 @@
     border-radius: 20%;
 }
 .nav ul li:hover{
-    color: rgb(86, 84, 84);
+  font-weight: bolder;
+    text-decoration: underline;
 }
 
 .nav ul a {
@@ -49,11 +50,10 @@
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
-
 .name b {
     color: rgb(40, 204, 204);
 }
-#profile{
+#OpenSB{
     position: absolute;
     right: 20px;
     top: 10px;
@@ -61,7 +61,7 @@
    font-size: 30px;
    display: none;
 }
-@media (min-width:300px) and (max-width:600px) {
+@media (min-width:300px) and (max-width:1000px) {
     .nav {
         height: 5vh;
     }
@@ -70,22 +70,47 @@
         font-size: 23px;
         padding-left: 3px;
     }
-
-    .nav ul li {
-        font-size: 10px;
-        margin: 7px;
+    .NavLinks{
+        display: none;
     }
-  #profile{
-    display: flex;
-  }
-  .sidebar{
-    height: 50vh;
+    #OpenSB{
+       display: flex;
+    }
+  #sidebar{
+    height: 30vh;
     width: 40vw;
     position: fixed;
     right: 0px;
-    background-color: rgba(255, 255, 255, 0.287);
-    display: flex;
+    top: 0px;
+    background-color: rgba(11, 11, 11, 0.948);
     flex-direction: column;
     z-index: 999;
+    box-shadow: -14px 24px 14px black;
+    animation: slider 0.5s ease-in-out;
+  }
+  #cross{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 35px;
+  }
+  .SidebarLinks ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    row-gap: 25px;
+  }
+  .SidebarLinks ul li{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+  }
+  @keyframes slider {
+    from{
+        width:  0vw;
+    }
+    to{
+        width:40vw;
+    }
   }
     }

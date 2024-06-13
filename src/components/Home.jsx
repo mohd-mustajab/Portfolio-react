@@ -24,6 +24,7 @@ const Home = () => {
       <span id="typing">
       <Typewriter
                 onInit={(typewriter) => {
+                  loop:true,
                     typewriter
                         .typeString("Web <b>Developer</b>")
                         .pauseFor(1000)
@@ -34,7 +35,7 @@ const Home = () => {
                         .typeString("Pursuing <b>BTech</b>")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("<b>Welcomes </b>You!!")
+                        .typeString("<b>Welcome </b>You!!")
                         .start();
                 }}
             />
