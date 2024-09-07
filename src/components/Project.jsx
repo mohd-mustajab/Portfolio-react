@@ -3,11 +3,13 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import "./Project.css"
 import Card from 'react-bootstrap/Card';
-import projectIMG1 from './Assets/project1_clock.jpeg'
-import projectIMG2 from './Assets/project2_player.jpeg'
-import projectIMG3 from './Assets/project3_calc.jpg'
-import projectIMG4 from './Assets/project4_todo.jpeg'
-import projectIMG5 from './Assets/project5_userdata.png'
+import projectIMG1 from './Assets/AnalogClockImg.jpg'
+import projectIMG2 from './Assets/MusicPlayerImg.jpg'
+import projectIMG3 from './Assets/CalcImg.avif'
+import projectIMG4 from './Assets/TodolistImg.jpg'
+import projectIMG5 from './Assets/UserdataImg.jpg'
+import projectIMG6 from './Assets/ChatAppImg.png'
+import projectIMG7 from './Assets/VideoPlayerImg.jpg'
 
 const Project = () => {
   return (
@@ -15,6 +17,26 @@ const Project = () => {
       <Navbar />
       <div className="heading">My Works..</div>
       <div className="projects">
+        <Card className='card'>
+          <Card.Img variant="top" src={projectIMG6} height="300px" width="300px" />
+          <Card.Body>
+            <Card.Title>Live Chat App</Card.Title>
+            <Card.Text>
+            A chat app where u can create the rooms and chat with your friends.
+            </Card.Text>
+            <a href="https://live-chat-app-7np2.onrender.com/" target='_blank'><button className="btn">Visit</button></a>
+          </Card.Body>
+        </Card>
+        <Card className='card'>
+          <Card.Img variant="top" src={projectIMG7} height="300px" width="300px" />
+          <Card.Body>
+            <Card.Title>Video Player</Card.Title>
+            <Card.Text>
+            A multi-resolution video player whre u can upload and play video on diffrent resolutions.
+            </Card.Text>
+            <a href="https://multi-resolution-video-player.onrender.com/" target='_blank'><button className="btn">Visit</button></a>
+          </Card.Body>
+        </Card>
         <Card className='card'>
           <Card.Img variant="top" src={projectIMG1} height="300px" width="300px" />
           <Card.Body>

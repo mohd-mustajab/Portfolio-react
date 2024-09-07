@@ -11,12 +11,11 @@ footer {
 
 .cards {
     background-color: black;
-    height: 20vh;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
-
 }
 
 .one {
@@ -90,7 +89,7 @@ justify-content: center;
     }
 
     .footer {
-        height: 12vh;
+        height:12vh;
     }
 
     .one h1 {
