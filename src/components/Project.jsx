@@ -73,18 +73,6 @@ const Project = () => {
         </Card>
 
         <Card className='card'>
-          <Card.Img variant="top" src={projectIMG4} height="300px" width="300px" />
-          <Card.Body>
-            <Card.Title>Todo List</Card.Title>
-            <Card.Text>
-            This to-do list is a simple, organized tool used to keep track of tasks and responsibilities.
-            </Card.Text>
-            <a href="https://todo-list-by-mj.netlify.app/" target='_blank'><button className="btn">Visit</button></a>
-          </Card.Body>
-        </Card>
-
-
-        <Card className='card'>
           <Card.Img variant="top" src={projectIMG5} height="300px" width="300px" />
           <Card.Body>
             <Card.Title>User Data</Card.Title>
