@@ -39,8 +39,8 @@ background-color: black;
     font-family: 'Ubuntu', sans-serif;
 }
 .img {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin-top: 10vh;
    border-radius: 50%;
    box-shadow: -100px 0px 200px   rgb(7, 123, 123);
