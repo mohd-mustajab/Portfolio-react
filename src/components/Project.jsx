@@ -10,6 +10,7 @@ import projectIMG4 from './Assets/TodolistImg.jpg'
 import projectIMG5 from './Assets/UserdataImg.jpg'
 import projectIMG6 from './Assets/ChatAppImg.png'
 import projectIMG7 from './Assets/VideoPlayerImg.jpg'
+import projectIMG8 from './Assets/chatbotImg.png'
 
 const Project = () => {
   return (
@@ -17,6 +18,16 @@ const Project = () => {
       <Navbar />
       <div className="heading">My Works..</div>
       <div className="projects">
+        <Card className='card'>
+          <Card.Img variant="top" src={projectIMG8} height="300px" width="300px" />
+          <Card.Body>
+            <Card.Title>Travel Chatbot</Card.Title>
+            <Card.Text>
+            Ask the queries about your journey.
+            </Card.Text>
+            <a href="https://ai-chatbot-frontend-nlc8.onrender.com/" target='_blank'><button className="btn">Visit</button></a>
+          </Card.Body>
+        </Card>
         <Card className='card'>
           <Card.Img variant="top" src={projectIMG6} height="300px" width="300px" />
           <Card.Body>
