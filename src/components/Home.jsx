@@ -29,7 +29,7 @@ const Home = () => {
                         .typeString("Web <b>Developer</b>")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("A <b>III year</b> Student")
+                        .typeString("A <b>Final year</b> Student")
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("Pursuing <b>BTech</b>")
