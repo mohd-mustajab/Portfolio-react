@@ -54,8 +54,8 @@ background-color: black;
     justify-content: space-between;
 }
 .sm a:hover{
-    scale: 1.1;
-    animation: 0.5s;
+    scale: 1.2;
+    animation: 1s;
 }
 .sm a{
 text-decoration: none;
