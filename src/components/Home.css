@@ -53,7 +53,7 @@ background-color: black;
     display: flex;
     justify-content: space-between;
 }
-.sm:hover{
+.sm a:hover{
     scale: 1.1;
     animation: 0.5s;
 }
