@@ -55,7 +55,7 @@ background-color: black;
 }
 .sm a:hover{
     scale: 1.2;
-    animation: 1s;
+    transition: 0.5s;
 }
 .sm a{
 text-decoration: none;
