@@ -26,7 +26,7 @@ const Home = () => {
                 onInit={(typewriter) => {
                   loop:true,
                     typewriter
-                        .typeString("Web <b>Developer</b>")
+                        .typeString("Software <b>Engineer</b>")
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("A <b>Final year</b> Student")
